@@ -1,0 +1,86 @@
+body {
+    background: var(--background-button-color) url('../images/bg-desktop.svg')  no-repeat;
+    background-size: 150%;
+}
+
+main {
+    margin: 40px 60px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+.content .content-width {
+    flex: 1;
+    max-width: 600px;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.content .content-text {
+    margin-top: 20px;
+}
+
+.content .content-text h1 {
+    color: var(--hover-text-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content .content-text p {
+    color: var(--hover-text-color);
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    background-color: var(--hover-text-color);
+    color: var(--background-button-color);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0,.5);
+    transition: 0.3s;
+}
+
+.content .content-text :hover.btn {
+    color: var(--hover-text-color);
+    background-color: var(--hover-button-color);
+}
+
+.content .content-text .footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.content .content-text .footer .socials .container-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content-text .footer .socials a {
+    width: 40px;
+    height: 40px;
+    color: var(--hover-text-color);
+    border: solid 1px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.content .content-text .footer .socials :hover a {
+    color: var(--hover-icon-color);
+}

@@ -1,0 +1,6 @@
+:root {
+    --background-button-color: hsl(257, 40%, 49%);
+    --hover-button-color: hsl(300, 69%, 71%);
+    --hover-icon-color: hsl(320, 100%, 71%);
+    --hover-text-color: #fff;
+}
