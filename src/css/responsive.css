@@ -1,4 +1,10 @@
-@media (max-width:700px) {
+@media (max-width:924px) {
+     .main .content .content-text .footer .socials, ul {
+        margin-top: 75px;
+    }
+}
+
+@media (max-width:787px) {
     body {
         background-image: url(../images/bg-mobile.svg);
     }
@@ -10,6 +16,7 @@
 
     .main .content {
         flex-direction: column;
+        align-items: center;
         text-align: center;
         margin-top: 100px;
     }

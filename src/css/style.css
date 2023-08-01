@@ -16,6 +16,7 @@ main {
     display: flex;
     gap: 40px;
     justify-content: center;
+    transition: 0.8s;
 }
 
 
@@ -64,6 +65,7 @@ main {
     justify-content: flex-end;
     margin-top: 200px;
     gap: 20px;
+    transition: 0.8s;
 }
 
 .content .content-text .footer .socials .container-i {
